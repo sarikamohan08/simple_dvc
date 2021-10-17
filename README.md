@@ -36,9 +36,9 @@ git add .
 ```bash
 git commit -m "first commit"
 ```
-```bash
-oneliner update for readme
 
+oneliner update for readme
+```bash
 git add .&& git commit -m "update README.md"
 ```
 ```bash
