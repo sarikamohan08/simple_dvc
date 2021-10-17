@@ -17,6 +17,7 @@ pip install -r requirements.txt
 ```
 
 download the data 
+
 https://www.kaggle.com/rajyellow46/wine-quality
 
 
@@ -26,3 +27,7 @@ git init
 dvc init
 
 dvc add data_given/winequality.csv
+
+git add .
+
+git commit -m "first commit"
