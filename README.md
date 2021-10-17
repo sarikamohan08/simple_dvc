@@ -20,25 +20,31 @@ download the data
 
 https://www.kaggle.com/rajyellow46/wine-quality
 
+```bash
+git init 
 
-git init
-
-
+```
+```bash
 dvc init
-
+```
+```bash
 dvc add data_given/winequality.csv
-
+```
+``` bash
 git add .
-
+```
+```bash
 git commit -m "first commit"
-
+```
+```bash
 oneliner update for readme
 
 git add .&& git commit -m "update README.md"
-
-
+```
+```bash
 git remote add origin https://github.com/sarikamohan08/simple_dvc.git
 
 git branch -M main
 
 git push origin main
+```
